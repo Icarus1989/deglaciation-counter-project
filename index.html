@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en' style='-webkit-text-size-adjust:none'>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Deglaciation Counter Project</title>
+
+
+	<link rel="stylesheet" href="styles.css">
+	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"
+		integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ=="
+		crossorigin="anonymous"></script>
+	<script src="icecube.js"></script>
+
+	<style>
+	</style>
+</head>
+
+<body>
+
+	<div class="parent">
+		<h1 id="titleG">GL BAL</h1>
+		<span id="letterO">O</span>
+		<h1 id="titleT">THERMOSTAT</h1>
+		<div class="buttons">
+			<button id="upbutton">
+				<ul>
+					<li>&#x2303;</li>
+					<li>&#x2303;</li>
+					<li>&#x2303;</li>
+				</ul>
+			</button>
+			<button id="downbutton">
+				<ul>
+					<li>&#x2335;</li>
+					<li>&#x2335;</li>
+					<li>&#x2335;</li>
+				</ul>
+			</button>
+		</div>
+		<div class="thermostatDial" alt="Thermostat Dial">
+			<span id="counter">+ 0°C</span>
+			<div id="progressbarBase">
+				<div id="progressbar"></div>
+			</div>
+			<p id="averageLabel">Temperatura media globale <span id="tempLabel">18.4°C</span></p>
+		</div>
+		<div id="wheel">
+		</div>
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+	<script src="script.js"></script>
+	<script src="sketch.js"></script>
+
+</body>
+
+</html>
