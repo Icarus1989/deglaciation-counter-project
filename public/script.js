@@ -7,7 +7,6 @@ var firebaseConfig = {
 	appId: "1:1093478630926:web:de3934b074d2e1e5d05e5f"
 };
 firebase.initializeApp(firebaseConfig);
-console.log(firebase);
 
 let parent = document.querySelector('.parent');
 let titleG = document.querySelector('#titleG');
