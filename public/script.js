@@ -4,9 +4,11 @@ var firebaseConfig = {
 	projectId: "deglaciation-counter-pro-630d3",
 	storageBucket: "deglaciation-counter-pro-630d3.appspot.com",
 	messagingSenderId: "1093478630926",
-	appId: "1:1093478630926:web:de3934b074d2e1e5d05e5f"
+	appId: "1:1093478630926:web:de3934b074d2e1e5d05e5f",
+	measurementId: "G-RQJF6G11TF"
 };
 firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 
 let parent = document.querySelector('.parent');
 let titleG = document.querySelector('#titleG');
