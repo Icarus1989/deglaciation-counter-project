@@ -67,58 +67,53 @@ letterOglobal.style.top = yCentral - letterOglobal.clientHeight / 2 + 'px';
 moveThermostat(counterValue, radiusThermostat, wheel);
 
 window.addEventListener('resize', () => location.reload());
-
 parent.addEventListener('dblclick', (event) => {
 	if (event.target.className == 'button') {
 		event.preventDefault();
 	} else return;
 });
 
-upbutton.addEventListener('click', () => {
-	startMelting = true;
-	increaseWater = 1;
-	limit = limit + 10;
-	counterValue = Number((counterValue + 0.1).toFixed(1));
-	temperature(counter, counterValue);
-	addAverage(averageTemperature, tempLabel, counterValue);
-	changeColor(upbutton, tempLabel, '#E53935', false);
-	progressStatus(progressbar, counterValue);
-	moveThermostat(counterValue, radiusThermostat, wheel);
+parent.addEventListener('click', (event) => {
+	if (event.target.closest('#upbutton')) {
+		startMelting = true;
+		increaseWater = 1;
+		limit = limit + 10;
+		counterValue = Number((counterValue + 0.1).toFixed(1));
+		temperature(counter, counterValue);
+		addAverage(averageTemperature, tempLabel, counterValue);
+		changeColor(upbutton, tempLabel, '#E53935', false);
+		progressStatus(progressbar, counterValue);
+		moveThermostat(counterValue, radiusThermostat, wheel);
 
-	if ((counterValue >= 0) && ((counterValue * 10) % 4) == 0) {
-		activeIce = true;
-		if (glaciarIndex < 4) {
-			glaciarIndex = glaciarIndex + 1;
+		if ((counterValue >= 0) && ((counterValue * 10) % 4) == 0) {
+			activeIce = true;
+			if (glaciarIndex < 4) {
+				glaciarIndex = glaciarIndex + 1;
+			}
+			if (glaciarIndexTwo < 3) {
+				glaciarIndexTwo = glaciarIndexTwo + 1;
+			}
+			if (glaciarIndexThree < 2) {
+				glaciarIndexThree = glaciarIndexThree + 1;
+			}
+		} else {
+			activeIce = false;
 		}
-		if (glaciarIndexTwo < 3) {
-			glaciarIndexTwo = glaciarIndexTwo + 1;
+		if ((counterValue !== 0) && ((counterValue * 10) % 2) == 0) {
+			breakSignal = true;
 		}
-		if (glaciarIndexThree < 2) {
-			glaciarIndexThree = glaciarIndexThree + 1;
-		}
-	} else {
-		activeIce = false;
 	}
 
-	if ((counterValue !== 0) && ((counterValue * 10) % 2) == 0) {
-		breakSignal = true;
+	if (event.target.closest('#downbutton')) {
+		increaseWater = -1;
+		limit = limit - 10;
+		counterValue = Number((counterValue - 0.1).toFixed(1));
+		temperature(counter, counterValue);
+		subAverage(averageTemperature, tempLabel, counterValue);
+		changeColor(downbutton, tempLabel, '#4FC3F7', true);
+		progressStatus(progressbar, counterValue)
+		moveThermostat(counterValue, radiusThermostat, wheel);
 	}
-});
-
-downbutton.addEventListener('click', () => {
-	increaseWater = -1;
-	limit = limit - 10;
-	counterValue = Number((counterValue - 0.1).toFixed(1));
-	temperature(counter, counterValue);
-	subAverage(averageTemperature, tempLabel, counterValue);
-	changeColor(downbutton, tempLabel, '#4FC3F7', true);
-	progressStatus(progressbar, counterValue)
-	moveThermostat(counterValue, radiusThermostat, wheel);
-
-	// if ((counterValue < 0) && ((counterValue * 10) % 10) == 0) {
-	// 	stopTimer = true;
-	// 	startMelting = false;
-	// }
 });
 
 function temperature(label, num) {
@@ -129,7 +124,6 @@ function temperature(label, num) {
 		temp = `+${temp}`;
 	}
 	return label.textContent = temp;
-
 }
 
 function addAverage(num, label, addition) {
@@ -157,7 +151,6 @@ function changeColor(button, label, color, reverse) {
 				elt.style.textShadow = '';
 				label.style.textShadow = '0 0 5px rgb(8, 5, 5), 0 0 7px rgba(179, 229, 252, 0.945), 0 0 9px rgba(179, 229, 252, 0.945), 0 0 11px rgba(179, 229, 252, 0.945)';
 			}, 100 * (arr.indexOf(elt) + 1));
-
 		}
 	} else {
 		arr.reverse();
