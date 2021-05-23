@@ -28,3 +28,14 @@ Fonte: https://earthobservatory.nasa.gov/world-of-change/global-temperatures
 * La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
 
 * Ogni feature é una ricercata analogia del mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
+
+## Quick start :computer:
+
+L’applicazione é stata pubblicata su Firebase. E’ possibile provarla al link:
+https://deglaciation-counter-pro-630d3.web.app/
+
+Here you can tell us how to get your project up and running.
+
+You can add commands like: run `npm install` and `npm run serve`.
+
+It's important that you let everything clear and tell us as much information as possible.
