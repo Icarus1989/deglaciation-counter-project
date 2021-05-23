@@ -1,17 +1,16 @@
 <div align="center">
-  <img src="./img/ff_logo2013.png" width="200px">
   <h1>Deglaciation Counter Project</h1>
 </div>
 
 <p align="center">
-  Un semplice counter per verificare le conoscenze acquisite del linguaggio JavaScript, creato con l’obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico. 
+  Un counter per verificare le conoscenze acquisite nel linguaggio JavaScript, creato con l’obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico. 
 </p>
+:javascript:
 
 
-> **Note:** Some observations if you need them (optional).
+> **Note:** :javascript: Some observations if you need them (optional).
 
-## Features :earth_africa:
-
+## Features :hammer: :wrench:
 
 * Il counter indicando 0°C nella parte superiore del termostato, mentre nella seconda metà si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
 Fonte: 
@@ -31,7 +30,7 @@ Fonte:
 
 * Ogni feature é una ricercata analogia del mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
 
-## Quick start  :computer:
+## Quick start  :computer: :iphone:
 
 L’applicazione é stata pubblicata su Firebase. E’ possibile provarla al link:
 :link: https://deglaciation-counter-pro-630d3.web.app/
@@ -54,4 +53,4 @@ Distributed under the MIT License.
 
 Alex -  westcoastrapper89@yahoo.it
 
-Project Link :link: : [ https://github.com/Icarus1989/deglaciation-counter-project](:link: https://github.com/Icarus1989/deglaciation-counter-project)
+Project Link :link: : [ https://github.com/Icarus1989/deglaciation-counter-project]
