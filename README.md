@@ -14,17 +14,18 @@
 
 
 * Il counter indicando 0°C nella parte superiore del termostato, mentre nella seconda metà si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
-Fonte: :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
+Fonte: 
+:link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
 
 * Aumentando la temperatura con il button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo.
 
-* Sempre aumentando la temperatura con il button, ogni 0.4°C, si causerà lo scioglimento di una parte del ghiaccio sullo sfondo.
+* Continuando ad aumentare la temperatura con il button, ogni 0.4°C, si causerà lo scioglimento di una parte del ghiaccio sullo sfondo.
 
-* Aumentando la temperatura inoltre partirà un timeout di 30 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
+* Fin dal primo aumento di temperatura inoltre partirà un timeout di 30 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
 
 * Diminuendo la temperatura con il secondo button la temperatura diminuirà di 0.1°C e diminuirà il livello dell’acqua sullo sfondo.
 
-* Diminuendo la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
+* Se all’inizio di diminuirà la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
 
 * La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
 
@@ -40,6 +41,17 @@ Codice al link:
 
 Here you can tell us how to get your project up and running.
 
-You can add commands like: run `npm install` and `npm run serve`.
-
 It's important that you let everything clear and tell us as much information as possible.
+
+
+
+## License
+
+Distributed under the MIT License.
+
+
+## Contact
+
+Alex -  westcoastrapper89@yahoo.it
+
+Project Link :link: : [ https://github.com/Icarus1989/deglaciation-counter-project](:link: https://github.com/Icarus1989/deglaciation-counter-project)
