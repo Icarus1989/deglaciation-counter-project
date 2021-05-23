@@ -20,28 +20,23 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#tecnicaldetails">Tecnical Details</a></li>
+    <li><a href="#quickstart">Quick start</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
 ### Built With
 
-* [HTML]()
-* [CSS]()
-* [JavaScript]()
-* [p5.js Library]()
+* [https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=it](HTML)
+* [https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=it](CSS)
+* [https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it](JavaScript)
+* [https://p5js.org/](p5.js Library)
 
-## Features :hammer: :wrench:
+## Features
 
 * Il counter indicando 0°C nella parte superiore del termostato, mentre nella seconda metà si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
 Fonte: 
@@ -60,6 +55,8 @@ Fonte:
 * La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
 
 * Ogni feature é una ricercata analogia del mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
+
+## Tecnical Details :hammer: :wrench:
 
 ## Quick start  :computer: :iphone:
 
