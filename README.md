@@ -7,7 +7,7 @@
 </p>
 
 
-> **Note:** :javascript: Some observations if you need them (optional).
+> **Note:** Some observations if you need them (optional).
 
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -22,8 +22,9 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#features">Features</a></li>
-    <li><a href="#tecnicaldetails">Tecnical Details</a></li>
-    <li><a href="#quickstart">Quick start</a></li>
+    <li><a href="#details">Details</a></li>
+    <li><a href="#quick-start">Quick start</a></li>
+    <li><a href="demo">Demo</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -31,10 +32,10 @@
 
 ### Built With
 
-* [https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=it](HTML)
-* [https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=it](CSS)
-* [https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it](JavaScript)
-* [https://p5js.org/](p5.js Library)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=it)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=it)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it)
+* [p5.js Library](https://p5js.org/)
 
 ## Features
 
@@ -56,15 +57,18 @@ Fonte:
 
 * Ogni feature é una ricercata analogia del mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
 
-## Tecnical Details :hammer: :wrench:
+<!-- ## Tecnical Details :hammer: :wrench: -->
 
 ## Quick start  :computer: :iphone:
 
-L’applicazione é stata pubblicata su Firebase. E’ possibile provarla al link:
+Codice completo in questa repo GitHub:
+:link: https://github.com/Icarus1989/deglaciation-counter-project
+
+## Demo
+L’applicazione é stata pubblicata su Firebase. 
+E’ possibile provarla al link:
 :link: https://deglaciation-counter-pro-630d3.web.app/
 
-Codice al link:
-:link: https://github.com/Icarus1989/deglaciation-counter-project
 
 Here you can tell us how to get your project up and running.
 
