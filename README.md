@@ -15,6 +15,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#description">Description</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -31,18 +32,21 @@
 
 ![Product Name Screen Shot](https://imagizer.imageshack.com/v2/640x480q90/924/F9xcYc.png)
 
-Questo progetto é stato creato per essere più di un semplice counter. 
-Con i button + (:arrow_up:) o - (:arrow_down:) si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.<br>
-Oltre ad aggiornare la value della temperatura nelle due metà dei quadranti del termostato, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web. Inoltre vi é una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente.<br>
-Questo per trasmettere la sensazione dell'abbassare o alzare girando relamente il termostato del mondo e di vederne gli effetti.<br>
-Tali cambiamenti si possono osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js, dove, ricevendo dei segnali dal file js principale script.js, si attiveranno le animazioni e un timeout per il totale scioglimento delle tre file di cubi di ghiaccio.
-
 ### Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=it)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=it)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it)
 * [p5.js Library](https://p5js.org/)
+<br>
+
+### Description
+
+Questo progetto é stato creato per essere più di un semplice counter. 
+Con i button + (:arrow_up:) o - (:arrow_down:) si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.<br>
+Oltre ad aggiornare la value della temperatura nelle due metà dei quadranti del termostato, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web. Inoltre vi é una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente.<br>
+Questo per trasmettere la sensazione dell'abbassare o alzare girando relamente il termostato del mondo e di vederne gli effetti.<br>
+Tali cambiamenti si possono osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js, dove, ricevendo dei segnali dal file js principale script.js, si attiveranno le animazioni e un timeout per il totale scioglimento delle tre file di cubi di ghiaccio.
 
 <hr>
 
