@@ -18,9 +18,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
     <li><a href="#features">Features</a></li>
     <li><a href="#quick-start">Quick start</a></li>
     <li><a href="#demo">Demo</a></li>
@@ -38,7 +35,7 @@
 
 ## Features
 
-* Il counter indicando 0°C nella parte superiore del termostato, mentre nella seconda metà si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
+* Il counter indicando 0°C nella parte superiore del termostato, mentre nella parte inferiore si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
 Fonte: 
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
 
