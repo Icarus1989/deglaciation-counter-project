@@ -5,7 +5,7 @@
 <p align="center">
   Un counter per verificare le conoscenze acquisite nel linguaggio JavaScript, creato con l’obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico.
 </p>
-<div font-size="40px" align="center">:earth_africa:</div>
+<div style="font-size='40px'" align="center">:earth_africa:</div>
 
 <hr>
 
