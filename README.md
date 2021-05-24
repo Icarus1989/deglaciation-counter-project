@@ -5,8 +5,8 @@
 <p align="center">
   Un counter per verificare le conoscenze acquisite nel linguaggio JavaScript, creato con l’obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico.
 </p>
-<div style="font-size: 80px; border: 3px solid white;" align="center">:earth_africa:</div>
-<div style="diplay: block; width: 100%; height: 100%; background-image:url('https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_1880-1884_lrg.png');"></div>
+<!-- <div style="font-size: 80px; border: 3px solid white;" align="center">:earth_africa:</div> -->
+![Image of global warming] (https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019_lrg.png)
 
 <hr>
 
