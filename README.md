@@ -5,8 +5,6 @@
 <p align="center">
   Un counter per verificare le conoscenze acquisite nel linguaggio JavaScript, creato con l’obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico.
 </p>
-<!-- <div style="font-size: 80px; border: 3px solid white;" align="center">:earth_africa:</div> -->
-
 
 <hr>
 
@@ -33,7 +31,10 @@
 
 ![Product Name Screen Shot](https://imagizer.imageshack.com/v2/640x480q90/924/F9xcYc.png)
 
-* Questo progetto é stato creato...
+Questo progetto é stato creato per essere più di un semplice counter. 
+Con i button + (:arrow_up:) o - (:arrow_down:) si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.
+Oltre ad aggiornare la value della temperatura nelle due metà dei quadranti del termostato, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web. Inoltre vi é una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Questo per trasmettere la sensazione dell'abbassare o alzare girando relamente il termostato del mondo e di vederne gli effetti.
+Questi si possono osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js, dove, ricevendo dei segnali dal file js principale script.js, si attiveranno le animazioni e un timeout per il totale scioglimento delle tre file di cubi di ghiaccio.
 
 ### Built With
 
@@ -46,10 +47,11 @@
 
 ## Usage
 
-* Il counter indicando 0°C nella parte superiore del termostato, mentre nella parte inferiore si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
+* Il counter indica 0°C nella parte superiore del termostato, mentre nella parte inferiore si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
 <br>
 Fonte: 
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
+<br>
 
 * Aumentando la temperatura con il button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo.
 
