@@ -36,8 +36,10 @@
 ## Features
 
 * Il counter indicando 0°C nella parte superiore del termostato, mentre nella parte inferiore si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
+<hr>
 Fonte: 
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
+<hr>
 
 * Aumentando la temperatura con il button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo.
 
@@ -55,7 +57,7 @@ Fonte:
 
 <!-- ## Tecnical Details :hammer: :wrench: -->
 
-## Quick start  :computer: :iphone:
+## Quick start  
 
 Codice completo in questa repo GitHub:
 :link: https://github.com/Icarus1989/deglaciation-counter-project
