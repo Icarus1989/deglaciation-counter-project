@@ -55,27 +55,27 @@ Fonte:
 
 * Continuando ad aumentare la temperatura con il button, ogni 0.4°C, si causerà lo scioglimento di una parte del ghiaccio sullo sfondo.
 
-![Image of first deglaciation](https://octodex.github.com/images/yaktocat.png)
+![Image of first deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/sxrKmz.png)
 
 * Fin dal primo aumento di temperatura inoltre partirà un timeout di 30 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
 
-![Image of full deglaciation](https://imagizer.imageshack.com/v2/640x480q90/924/kYUDJV.png)
+![Image of full deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/kYUDJV.png)
 
 * Diminuendo la temperatura con il secondo button la temperatura diminuirà di 0.1°C e diminuirà il livello dell’acqua sullo sfondo.
 
 * Se all’inizio di diminuirà la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
 
-![Image of stopped deglaciation](https://imagizer.imageshack.com/v2/640x480q90/923/PSvojC.png)
+![Image of stopped deglaciation](https://imagizer.imageshack.com/v2/320x240q90/923/PSvojC.png)
 
 * La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
 
-![Central bar green](https://imagizer.imageshack.com/v2/640x480q90/924/SvD6O9.png)
+![Central bar green](https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png)
 
-![Central bar red](https://imagizer.imageshack.com/v2/640x480q90/922/TTzI8Z.png)
+![Central bar red](https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png)
 
 * Ogni feature é una ricercata analogia con il mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
 
-![Image of global warming](https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019_lrg.png)
+![Image of global warming](https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019.png)
 
 <hr>
 
