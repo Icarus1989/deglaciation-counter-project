@@ -6,6 +6,7 @@
   Un counter per verificare le conoscenze acquisite nel linguaggio JavaScript, creato con l’obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico.
 </p>
 <div style="font-size: 80px; border: 3px solid white;" align="center">:earth_africa:</div>
+<div style="diplay: block; width: 100%; height: 100%; background-image:url('https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_1880-1884_lrg.png');"></div>
 
 <hr>
 
@@ -59,9 +60,7 @@ Fonte:
 
 * La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
 
-* Ogni feature é una ricercata analogia del mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
-
-<!-- ## Tecnical Details :hammer: :wrench: -->
+* Ogni feature é una ricercata analogia con il mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
 
 <hr>
 
@@ -76,11 +75,6 @@ Codice completo in questa repo GitHub:
 L’applicazione é stata pubblicata su Firebase. 
 E’ possibile provarla al link:
 :link: https://deglaciation-counter-pro-630d3.web.app/
-
-
-Here you can tell us how to get your project up and running.
-
-It's important that you let everything clear and tell us as much information as possible.
 
 <hr>
 
