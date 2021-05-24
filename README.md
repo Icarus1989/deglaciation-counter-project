@@ -105,11 +105,11 @@ Distributed under the MIT License.
 
 ## Contact
 
-Alex 
-westcoastrapper89@yahoo.it
-[GitHub](http://https://github.com/Icarus1989)
-[Instagram](http://https://www.instagram.com/alex._.1989/)
-[Facebook](https://www.facebook.com/alex.valente.92)
+Alex<br>
+westcoastrapper89@yahoo.it<br>
+[GitHub](http://https://github.com/Icarus1989)<br>
+[Instagram](http://https://www.instagram.com/alex._.1989/)<br>
+[Facebook](https://www.facebook.com/alex.valente.92)<br>
 
 
 Project Link :link: : [ https://github.com/Icarus1989/deglaciation-counter-project]
