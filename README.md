@@ -48,7 +48,7 @@ Questi si possono osservare nello sfondo, realizzato con JavaScript e la library
 ## Usage
 
 * Il counter indica 0°C nella parte superiore del termostato, mentre nella parte inferiore si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
-<br>
+<!-- <br> -->
 Fonte: 
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
 <br>
@@ -83,7 +83,7 @@ Fonte:
 
 ## Quick start  
 
-Codice completo in questa repo GitHub:
+Codice completo in questa repo GitHub: <br>
 :link: https://github.com/Icarus1989/deglaciation-counter-project
 
 <hr>
@@ -91,6 +91,7 @@ Codice completo in questa repo GitHub:
 ## Demo
 L’applicazione é stata pubblicata su Firebase. 
 E’ possibile provarla al link:
+<br>
 :link: https://deglaciation-counter-pro-630d3.web.app/
 
 <hr>
