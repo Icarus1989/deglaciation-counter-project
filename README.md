@@ -1,3 +1,6 @@
+<hr>
+<hr>
+
 <div align="center">
   <h1>Deglaciation Counter Project</h1>
 </div>
