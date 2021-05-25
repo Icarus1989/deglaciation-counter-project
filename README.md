@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  Un counter per verificare le conoscenze acquisite nel linguaggio JavaScript, creato con l’obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico.
+  Un counter per verificare le conoscenze acquisite nel linguaggio JavaScript tramite la Super Guida di Start2Impact JavaScript Basics, creato con l’ulteriore obiettivo di sensibilizzare l’utente sull’argomento del surriscaldamento climatico.
 </p>
 
 <hr>
@@ -52,9 +52,9 @@ Questo progetto é composto da un file HTML per la struttura della pagina ed un 
 <hr>
 
 Questo progetto é stato creato per essere più di un semplice counter. 
-Con i button + ( :arrow_up: ) o - ( :arrow_down: ) si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.<br>
+Con i button + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.<br>
 Oltre ad aggiornare la value della temperatura nelle due metà dei quadranti del termostato, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web. Inoltre vi é una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente.<br>
-Questo per trasmettere la sensazione dell'abbassare o alzare la temperatura girando realamente il termostato del mondo e di vederne gli effetti.<br>
+Questo per trasmettere la sensazione dell'abbassare o alzare la temperatura girando realmente il termostato del mondo, vedendone alcuni effetti.<br>
 Tali cambiamenti si possono osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js, dove, ricevendo dei segnali dal file js principale script.js, si attiveranno le animazioni e un timeout per il totale scioglimento delle tre file di cubi di ghiaccio, oltre che un'innalzamento eccessivo del livello dell'acqua.
 
 <hr>

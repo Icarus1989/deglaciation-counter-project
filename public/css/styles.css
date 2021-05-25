@@ -482,7 +482,7 @@ body {
     letter-spacing: 2rem;
     font-size: 90px;
     padding-top: 1rem;
-    padding-left: 3rem;
+    padding-left: -1rem;
   }
 
   .thermostatDial {

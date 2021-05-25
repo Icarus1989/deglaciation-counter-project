@@ -18,17 +18,17 @@ function setup() {
   canvas.position(0, 0);
   canvas.style('z-index', '-10');
 
-  for (let i = 0; i < verticalBlocks; i++) {
+  for (let i = 0; i < verticalBlocks; i++) { //creazione blocchi di ghiaccio
     let start = windowHeight - section * verticalBlocks;
     yCoord = (start) + section * i;
     cubes[i] = new IceCube(windowWidth - section, yCoord, section, alpha, 4);
   }
-  for (let i = 0; i < verticalBlocks - 1; i++) {
+  for (let i = 0; i < verticalBlocks - 1; i++) { //creazione blocchi di ghiaccio
     let start = windowHeight - section * (verticalBlocks - 1);
     yCoord = (start) + section * i;
     cubesTwo[i] = new IceCube(windowWidth - section * 2, yCoord, section, alpha, 4);
   }
-  for (let i = 0; i < verticalBlocks - 2; i++) {
+  for (let i = 0; i < verticalBlocks - 2; i++) { //creazione blocchi di ghiaccio
     let start = windowHeight - section * (verticalBlocks - 2);
     yCoord = (start) + section * i;
     cubesThree[i] = new IceCube(windowWidth - section * 3, yCoord, section, alpha, 4);
@@ -37,7 +37,7 @@ function setup() {
 
 }
 
-function windowResized() {
+function windowResized() { // per ridimensionamento canvas in caso di resize
   resizeCanvas(windowWidth, windowHeight);
 }
 
@@ -97,7 +97,7 @@ function draw() {
   }
 }
 
-function movement(arr, index) {
+function movement(arr, index) { // per movimento cubi di ghiaccio
   gravity = createVector(0, 0.005);
   arr[index].show(breakSignal);
   arr[index].applyGravity(gravity);
@@ -127,6 +127,6 @@ function meltingPole(arr) {
         item.dissolve();
       }
       limit = 400;
-    }, 30000);
+    }, 23000);
   }
 }

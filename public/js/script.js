@@ -32,20 +32,18 @@ let xCentral;
 let yCentral;
 let stopTimer = false;
 
-// ------ canvas variables ------
-
-const section = Number((document.documentElement.clientHeight / 18).toFixed(0));
-let verticalBlocks = Math.round((document.documentElement.clientHeight / 3.5) / (section));
+// ------ canvas / sketch.js variables ------
+const section = Number((document.documentElement.clientHeight / 18).toFixed(0)); // lato IceCube
+let verticalBlocks = Math.round((document.documentElement.clientHeight / 3.5) / (section)); //numero di cubi
 let activeIce = false;
 let glaciarIndex = -1;
 let glaciarIndexTwo = -1;
 let glaciarIndexThree = -1;
 let stopIce = false;
-let startMelting = false;
+let startMelting = false; // per timeout sciogliemento
 let alpha = 200;
 let breakSignal = false;
-
-// ------ canvas variables ------
+// ------ canvas / sketch.js variables ------
 
 parent.style.height = document.documentElement.clientHeight + 'px';
 bigWheel.style.position = 'absolute';
@@ -54,8 +52,8 @@ bigWheel.style.top = document.documentElement.clientHeight / 2 - (Number((bigWhe
 wheel.style.position = 'absolute';
 radiusThermostat = Number((bigWheel.getBoundingClientRect().x).toFixed(2)) - document.documentElement.clientWidth / 2;
 radius = Number((bigWheel.getBoundingClientRect().x).toFixed(2)) - document.documentElement.clientWidth / 2;
-xCentral = Number(((document.documentElement.clientWidth / 2) + (Math.sin(0) * radius)).toFixed(2));
-yCentral = Number(((document.documentElement.clientHeight / 2) + (Math.cos(0) * radius)).toFixed(2));
+xCentral = Number(((document.documentElement.clientWidth / 2) + (Math.sin(0) * radius)).toFixed(2)); //coordinate x rotella termostato
+yCentral = Number(((document.documentElement.clientHeight / 2) + (Math.cos(0) * radius)).toFixed(2)); //coordinate y rotella termostato
 titleT.style.left = xCentral - bigWheel.getBoundingClientRect().width + 'px';
 titleT.style.top = yCentral + bigWheel.getBoundingClientRect().height + 'px';
 titleG.style.left = xCentral - (3.33 * letterOglobal.clientWidth) + 'px';
@@ -66,26 +64,26 @@ letterOglobal.style.top = yCentral - letterOglobal.clientHeight / 2 + 'px';
 
 moveThermostat(counterValue, radiusThermostat, wheel);
 
-window.addEventListener('resize', () => location.reload());
-parent.addEventListener('dblclick', (event) => {
+window.addEventListener('resize', () => location.reload()); //per ridimensionare al resize event
+parent.addEventListener('dblclick', (event) => { //disabilitato comportamento di default per double click
 	if (event.target.className == 'button') {
 		event.preventDefault();
 	} else return;
 });
 
 parent.addEventListener('click', (event) => {
-	if (event.target.closest('#upbutton')) {
+	if (event.target.closest('#upbutton')) { //event delegation per button +
 		startMelting = true;
 		increaseWater = 1;
-		limit = limit + 10;
-		counterValue = Number((counterValue + 0.1).toFixed(1));
+		limit = limit + 10; //per determinare la crescita del livello dell'acsua sullo sfondo
+		counterValue = Number((counterValue + 0.1).toFixed(1)); //aumento value del counter
 		temperature(counter, counterValue);
 		addAverage(averageTemperature, tempLabel, counterValue);
 		changeColor(upbutton, tempLabel, '#E53935', false);
 		progressStatus(progressbar, counterValue);
 		moveThermostat(counterValue, radiusThermostat, wheel);
 
-		if ((counterValue >= 0) && ((counterValue * 10) % 4) == 0) {
+		if ((counterValue >= 0) && ((counterValue * 10) % 4) == 0) { //ogni 0.4°C avvia animazione
 			activeIce = true;
 			if (glaciarIndex < 4) {
 				glaciarIndex = glaciarIndex + 1;
@@ -104,10 +102,10 @@ parent.addEventListener('click', (event) => {
 		}
 	}
 
-	if (event.target.closest('#downbutton')) {
+	if (event.target.closest('#downbutton')) { //event delegation per button -
 		increaseWater = -1;
 		limit = limit - 10;
-		counterValue = Number((counterValue - 0.1).toFixed(1));
+		counterValue = Number((counterValue - 0.1).toFixed(1)); //diminuzione value del counter
 		temperature(counter, counterValue);
 		subAverage(averageTemperature, tempLabel, counterValue);
 		changeColor(downbutton, tempLabel, '#4FC3F7', true);
@@ -116,7 +114,7 @@ parent.addEventListener('click', (event) => {
 	}
 });
 
-function temperature(label, num) {
+function temperature(label, num) { //value temperature del counter
 	let number = Number(num);
 	let temp;
 	temp = `${number.toFixed(1)}°C`;
@@ -126,17 +124,17 @@ function temperature(label, num) {
 	return label.textContent = temp;
 }
 
-function addAverage(num, label, addition) {
+function addAverage(num, label, addition) { //aggiunta value a temperatura media
 	sum = ((Number(num.slice(0, 4))) + addition).toFixed(1);
 	return label.textContent = `${sum}°C`;
 }
 
-function subAverage(num, label, subtraction) {
+function subAverage(num, label, subtraction) { //sottrazione value a temperatura media
 	sub = ((Number(num.slice(0, 4))) + subtraction).toFixed(1);
 	return label.textContent = `${sub}°C`;
 }
 
-function changeColor(button, label, color, reverse) {
+function changeColor(button, label, color, reverse) { //cambiamento colore simboli buttons al click
 	let arr = Array.from(button.children[0].children);
 	arr.forEach((item) => {
 		item.style.color = color;
@@ -164,7 +162,7 @@ function changeColor(button, label, color, reverse) {
 	}
 }
 
-function progressStatus(bar, value) {
+function progressStatus(bar, value) { //movimento progressbar centrale del termostato
 	let num = 100 - (80 + (value * 10));
 	if (num >= 90) {
 		num = 90;
@@ -174,7 +172,7 @@ function progressStatus(bar, value) {
 	bar.style.width = num + '%';
 }
 
-function moveThermostat(angleValue, radius, target) {
+function moveThermostat(angleValue, radius, target) { //movimento rotella termostato
 	let angleRadians;
 	angleRadians = (angleValue * 50) * (Math.PI / 180); //(angleValue * 100 + numero gradi da cui partire) * (Math.PI / 180);
 	let xWheel = Number(((document.documentElement.clientWidth / 2) + (Math.sin(-angleRadians) * radius)).toFixed(2));
