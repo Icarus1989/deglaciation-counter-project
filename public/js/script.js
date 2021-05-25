@@ -27,11 +27,9 @@ let tempLabel = document.querySelector('#tempLabel');
 let averageTemperature = tempLabel.textContent;
 let progressbar = document.querySelector('#progressbar');
 let letterOglobal = document.querySelector('#letterO');
-let radius;
+let radius; //raggio termostato per calcolo coordinate rotella
 let xCentral;
 let yCentral;
-let stopTimer = false;
-
 // ------ canvas / sketch.js variables ------
 const section = Number((document.documentElement.clientHeight / 18).toFixed(0)); // lato IceCube
 let verticalBlocks = Math.round((document.documentElement.clientHeight / 3.5) / (section)); //numero di cubi
@@ -41,7 +39,7 @@ let glaciarIndexTwo = -1;
 let glaciarIndexThree = -1;
 let stopIce = false;
 let startMelting = false; // per timeout sciogliemento
-let alpha = 200;
+let alpha = 200; //trasparenza per elements del canvas
 let breakSignal = false;
 // ------ canvas / sketch.js variables ------
 
@@ -58,7 +56,7 @@ titleT.style.left = xCentral - bigWheel.getBoundingClientRect().width + 'px';
 titleT.style.top = yCentral + bigWheel.getBoundingClientRect().height + 'px';
 titleG.style.left = xCentral - (3.33 * letterOglobal.clientWidth) + 'px';
 titleG.style.top = yCentral - (letterOglobal.clientHeight / 2) + 'px';
-letterOglobal.style.position = "fixed";
+letterOglobal.style.position = "fixed"; //posizionamento della lettera O del title GLOBAL
 letterOglobal.style.left = xCentral - letterOglobal.clientWidth / 2 + 'px';
 letterOglobal.style.top = yCentral - letterOglobal.clientHeight / 2 + 'px';
 
@@ -174,7 +172,7 @@ function progressStatus(bar, value) { //movimento progressbar centrale del termo
 
 function moveThermostat(angleValue, radius, target) { //movimento rotella termostato
 	let angleRadians;
-	angleRadians = (angleValue * 50) * (Math.PI / 180); //(angleValue * 100 + numero gradi da cui partire) * (Math.PI / 180);
+	angleRadians = (angleValue * 50) * (Math.PI / 180); //angolo in radianti
 	let xWheel = Number(((document.documentElement.clientWidth / 2) + (Math.sin(-angleRadians) * radius)).toFixed(2));
 	let yWheel = Number(((document.documentElement.clientHeight / 2) + (Math.cos(-angleRadians) * radius)).toFixed(2));
 	target.style.left = xWheel - wheelRadius + 'px';
