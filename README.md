@@ -55,18 +55,15 @@ Con i buttons + e - si aumenterà o diminuirà la temperatura, implementati come
 Inoltre, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web, come fosse un termostato manuale, ed una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite script JavaScript nel file script.js.<br>
 Per trasmettere la sensazione dell'abbassare o alzare la temperatura girando realmente il termostato del mondo, vedendone alcuni effetti si può osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js.
 
+Fonte temperatura di partenza:
+:link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
+
 <hr>
 <hr>
 
 ## Usage
 
-* Il counter indica 0°C nella parte superiore del termostato, mentre nella parte inferiore si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
-
-Fonte: 
-:link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
-<br>
-
-* Aumentando la temperatura con il button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo. Ogni 0.4°C, si causerà lo scioglimento della parte superiore del ghiaccio.
+* Aumentando la temperatura con il primo button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo. Ogni 0.4°C, avverrà lo scioglimento della parte superiore del ghiaccio.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
@@ -74,7 +71,7 @@ Fonte:
 
 <br>
 
-* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che, giunto al termine, causerà lo scioglimento totale del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. La funzione viene usata anche per ripulire lo schermo da eventuali sfumature lasciate dall'animazione dovute ad un eccessiva velocità nell'aumento di temperatura.
+* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che, giunto al termine, causerà lo scioglimento totale del ghiaccio sullo sfondo, aumentando inoltre il livello dell’acqua. La funzione viene usata anche per ripulire lo schermo da eventuali sfumature lasciate dall'animazione, dovute ad un eccessiva velocità nell'aumento di temperatura.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
@@ -82,9 +79,7 @@ Fonte:
 
 <br>
 
-* Con il secondo button la temperatura diminuirà di 0.1°C e calerà anche il livello dell’acqua sullo sfondo.<br>
-
-* Se all’inizio si diminuirà la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
+* Con il secondo button la temperatura diminuirà di 0.1°C e calerà anche il livello dell’acqua sullo sfondo. Se all’inizio si diminuirà la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
 
 <div align="center">
   <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/9Ma3dK.png">
@@ -92,7 +87,7 @@ Fonte:
 
 <br>
 
-* La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
+* La barra centrale del termostato dà un’altra rappresentazione visiva, passando dal verde per una temperatura media del globo ottimale al rosso.
 
 <div align="center">
   <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png">
@@ -106,7 +101,7 @@ Fonte:
 
 <br>
 
-* Ogni feature é una ricercata analogia con il mondo reale, dove non basta mantenere la temperatura del globo a questi livelli per fermare la sglaciazione dei poli e dei ghiacciai, evitando così che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici. Occorre far diminuire la temperatura del nostro pianeta il prima possibile. Anche un altro minimo aumento della temperatura potrebbe causare danni irreparabili.
+* Ogni feature vuole essere una ricercata analogia con il mondo reale, dove non basta mantenere la temperatura del globo a questi livelli per fermare la sglaciazione dei poli e dei ghiacciai. Occorre far diminuire la temperatura del nostro pianeta il prima possibile. Anche un altro minimo aumento della temperatura potrebbe causare danni irreparabili.
 
 <div align="center">
   <img align="center" src="https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019.png">
