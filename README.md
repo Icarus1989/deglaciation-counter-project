@@ -50,15 +50,10 @@
 
 ### Description
 
-Questo progetto é composto da un file HTML per la struttura della pagina ed un file CSS per lo style dei vari elements che la compongono. Vi sono tre file di script JavaScript: il princiale , script.js, per collegare e far gestire agli elements le azioni degli utenti, visualizzare il counter e la temperatura e regolare la barra centrale, oltre al posizionamento di alcuni elements. Gli altri due vengono utilizzati per l'animazione sullo sfondo come reazione alle azioni dello user sfruttando alcuni metodi della library p5.js, per rendere più veloce e leggero il disegno di forme regolari e creare animazioni più naturali usando i Vectors.
-
-<hr>
-
 Questo progetto é stato creato per essere più di un semplice counter. 
-Con i buttons + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.<br>
-Oltre ad aggiornare la value della temperatura nelle due metà dei quadranti del termostato, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web, come fosse un termostato manuale. Inoltre vi é una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente.<br>
-Questo per trasmettere la sensazione dell'abbassare o alzare la temperatura girando realmente il termostato del mondo, vedendone alcuni effetti.<br>
-Tali cambiamenti si possono osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js, dove, ricevendo dei segnali dal file js principale script.js, si attiveranno le animazioni e un timeout per il totale scioglimento delle tre file di cubi di ghiaccio, oltre che un'innalzamento eccessivo del livello dell'acqua.
+Con i buttons + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo.
+Inoltre, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web, come fosse un termostato manuale, ed una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite script JavaScript nel file script.js.<br>
+Per trasmettere la sensazione dell'abbassare o alzare la temperatura girando realmente il termostato del mondo, vedendone alcuni effetti si può osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js.
 
 <hr>
 <hr>
@@ -71,9 +66,7 @@ Fonte:
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
 <br>
 
-* Aumentando la temperatura con il button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo.
-
-* Continuando ad aumentare la temperatura con il button, ogni 0.4°C, si causerà lo scioglimento di una parte del ghiaccio sullo sfondo.
+* Aumentando la temperatura con il button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo. Ogni 0.4°C, si causerà lo scioglimento della parte superiore del ghiaccio.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
@@ -81,7 +74,7 @@ Fonte:
 
 <br>
 
-* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che, giunto al termine, causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. La funzione viene usata anche per ripulire lo schermo da eventuali sfumature lasciate dall'animazione dovute ad un eccessiva velocità nell'aumento di temperatura.
+* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che, giunto al termine, causerà lo scioglimento totale del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. La funzione viene usata anche per ripulire lo schermo da eventuali sfumature lasciate dall'animazione dovute ad un eccessiva velocità nell'aumento di temperatura.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
@@ -89,7 +82,7 @@ Fonte:
 
 <br>
 
-* Diminuendo la temperatura con il secondo button la temperatura diminuirà di 0.1°C e diminuirà il livello dell’acqua sullo sfondo.<br>
+* Con il secondo button la temperatura diminuirà di 0.1°C e calerà anche il livello dell’acqua sullo sfondo.<br>
 
 * Se all’inizio si diminuirà la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
 
