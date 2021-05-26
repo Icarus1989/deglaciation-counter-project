@@ -39,7 +39,6 @@
   <img src="https://imagizer.imageshack.com/v2/640x480q90/924/Au00v5.png">
 </div>
 
-<!-- ![Product Name Screen Shot](https://imagizer.imageshack.com/v2/640x480q90/923/WnUzLJ.png) -->
 
 ### Built With
 
@@ -67,7 +66,7 @@ Tali cambiamenti si possono osservare nello sfondo, realizzato con JavaScript e 
 ## Usage
 
 * Il counter indica 0°C nella parte superiore del termostato, mentre nella parte inferiore si trova riportata la temperatura media globale del pianeta secondo i dati NASA, 15.2°C calcolando le stime del 2021 partendo da una temperatura di 14°C dell’era preindustriale.
-<!-- <br> -->
+
 Fonte: 
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
 <br>
@@ -79,7 +78,7 @@ Fonte:
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
 </div>
-<!-- ![Image of first deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/sxrKmz.png) -->
+
 <br>
 
 * Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
@@ -87,7 +86,6 @@ Fonte:
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
 </div>
-<!-- ![Image of full deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/kYUDJV.png) -->
 
 <br>
 
@@ -98,7 +96,6 @@ Fonte:
 <div align="center">
   <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/9Ma3dK.png">
 </div>
-<!-- ![Image of stopped deglaciation](https://imagizer.imageshack.com/v2/320x240q90/923/PSvojC.png) -->
 
 <br>
 
@@ -107,17 +104,20 @@ Fonte:
 <div align="center">
   <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png">
 </div>
-<!-- ![Central bar green](https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png) -->
+
+<br>
+
 <div align="center">
   <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png">
 </div>
-<!-- ![Central bar red](https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png) -->
 
 <br>
 
 * Ogni feature é una ricercata analogia con il mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
 
-![Image of global warming](https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019.png)
+<div align="center">
+  <img align="center" src="https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019.png">
+</div>
 
 <hr>
 <hr>
