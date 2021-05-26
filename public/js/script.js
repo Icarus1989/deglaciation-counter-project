@@ -92,11 +92,9 @@ parent.addEventListener('click', (event) => {
 			if (glaciarIndexThree < 2) {
 				glaciarIndexThree = glaciarIndexThree + 1;
 			}
+			breakSignal = true;
 		} else {
 			activeIce = false;
-		}
-		if ((counterValue !== 0) && ((counterValue * 10) % 2) == 0) {
-			breakSignal = true;
 		}
 	}
 
