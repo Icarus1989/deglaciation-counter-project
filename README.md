@@ -35,7 +35,10 @@
 
 ## About The Project
 
-<img align="center" src="https://imagizer.imageshack.com/v2/640x480q90/924/Au00v5.png">
+<div align="center">
+  <img src="https://imagizer.imageshack.com/v2/640x480q90/924/Au00v5.png">
+</div>
+
 <!-- ![Product Name Screen Shot](https://imagizer.imageshack.com/v2/640x480q90/923/WnUzLJ.png) -->
 
 ### Built With
@@ -73,13 +76,17 @@ Fonte:
 
 * Continuando ad aumentare la temperatura con il button, ogni 0.4°C, si causerà lo scioglimento di una parte del ghiaccio sullo sfondo.
 
-<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
+<div align="center">
+  <img src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
+</div>
 <!-- ![Image of first deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/sxrKmz.png) -->
 <br>
 
 * Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
 
-<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
+<div align="center">
+  <img src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
+</div>
 <!-- ![Image of full deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/kYUDJV.png) -->
 
 <br>
@@ -88,16 +95,22 @@ Fonte:
 
 * Se all’inizio si diminuirà la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
 
-<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/9Ma3dK.png">
+<div align="center">
+  <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/9Ma3dK.png">
+</div>
 <!-- ![Image of stopped deglaciation](https://imagizer.imageshack.com/v2/320x240q90/923/PSvojC.png) -->
 
 <br>
 
 * La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
 
-<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png">
+<div align="center">
+  <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png">
+</div>
 <!-- ![Central bar green](https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png) -->
-<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png">
+<div align="center">
+  <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png">
+</div>
 <!-- ![Central bar red](https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png) -->
 
 <br>
