@@ -51,8 +51,8 @@
 
 Questo progetto é stato creato per essere più di un semplice counter. 
 Con i buttons + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo.
-Inoltre, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web, come fosse un termostato manuale, ed una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite script JavaScript nel file script.js.<br>
-Per trasmettere la sensazione dell'abbassare o alzare la temperatura girando realmente il termostato del mondo, vedendone alcuni effetti si può osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js.
+Inoltre, vi un'animazione che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo come se si stesse usando un termostato manuale, ed una barra centrale che passerà dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite script JavaScript nel file script.js.<br>
+Per trasmettere la sensazione dell'abbassare o alzare la temperatura globale, si potrà osservarne gli effetti sullo sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js.
 
 Fonte temperatura di partenza:<br>
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
@@ -62,7 +62,7 @@ Fonte temperatura di partenza:<br>
 
 ## Usage
 
-* Aumentando la temperatura con il primo button si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo. Ogni 0.4°C, avverrà lo scioglimento della parte superiore del ghiaccio.
+* Aumentando la temperatura con il button "+" si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo. Ogni 0.4°C, avverrà lo scioglimento della fila superiore dei cubi ghiaccio.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
@@ -78,7 +78,7 @@ Fonte temperatura di partenza:<br>
 
 <br>
 
-* Con il secondo button la temperatura diminuirà di 0.1°C e calerà anche il livello dell’acqua sullo sfondo. Se all’inizio si diminuirà solamente la temperatura, il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
+* Con il button "-" la temperatura diminuirà di 0.1°C e calerà anche il livello dell’acqua sullo sfondo. Se all’inizio si diminuirà la temperatura, il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
 
 <div align="center">
   <img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/9Ma3dK.png">
