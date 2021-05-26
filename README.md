@@ -51,7 +51,7 @@
 
 Questo progetto é stato creato per essere più di un semplice counter. 
 Con i buttons + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo.
-Inoltre, vi un'animazione che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo come se si stesse usando un termostato manuale, ed una barra centrale che passerà dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite script JavaScript nel file script.js.<br>
+Inoltre, vi un'animazione che farà girare una rotella, situata in corrispondenza della lettera "O" della parola "GLOBAL", come se si stesse usando un termostato manuale, ed una barra centrale che passerà dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite l'so esclusivo di JavaScript nel file script.js.<br>
 Per trasmettere la sensazione dell'abbassare o alzare la temperatura globale, si potrà osservarne gli effetti sullo sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js.
 
 Fonte temperatura di partenza:<br>
