@@ -18,7 +18,7 @@ class IceCube {
       this.vel.y *= 0;
     }
   }
-  applyCurrent(force) {
+  applyCurrent(force) { //applica corrente marina verso sinistra
     this.acc.sub(force);
   }
 

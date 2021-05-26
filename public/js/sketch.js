@@ -14,7 +14,7 @@ function setup() {
   let xMeasure = windowWidth;
   let yMeasure = windowHeight;
   let canvas = createCanvas(xMeasure, yMeasure); //canvas con misure pari alla width e alla height della window
-  canvas.style('display', 'block');
+  canvas.style('display', 'block'); //metodi specifici di p5.js
   canvas.position(0, 0);
   canvas.style('z-index', '-10');
 
