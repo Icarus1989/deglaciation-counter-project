@@ -35,7 +35,8 @@
 
 ## About The Project
 
-![Product Name Screen Shot](https://imagizer.imageshack.com/v2/640x480q90/924/F9xcYc.png)
+<img align="center" src="https://imagizer.imageshack.com/v2/640x480q90/924/Au00v5.png">
+<!-- ![Product Name Screen Shot](https://imagizer.imageshack.com/v2/640x480q90/923/WnUzLJ.png) -->
 
 ### Built With
 
@@ -47,7 +48,7 @@
 
 ### Description
 
-Questo progetto é composto da un file HTML per la struttura della pagina ed un file CSS per lo style dei vari elements che la compongono. Inoltre vi sono tre file di script JavaScript: il princiale , script.js, per collegare e far gestire agli elements le azioni degli utenti, visualizzare il counter e la temperatura e animare la barra della temperatura. Gli altri due vengono utilizzati per l'animazione sullo sfondo come reazione alle azioni dello user.
+Questo progetto é composto da un file HTML per la struttura della pagina ed un file CSS per lo style dei vari elements che la compongono. Inoltre vi sono tre file di script JavaScript: il princiale , script.js, per collegare e far gestire agli elements le azioni degli utenti, visualizzare il counter e la temperatura e regolare la barra centrale, oltre al posizionamento di alcuni elements. Gli altri due vengono utilizzati per l'animazione sullo sfondo come reazione alle azioni dello user sfruttando alcuni metodi della library p5.js, per rendere più veloce la creazione di forme regolari e creare animazioni più naturali usando i Vectors.
 
 <hr>
 
@@ -72,12 +73,14 @@ Fonte:
 
 * Continuando ad aumentare la temperatura con il button, ogni 0.4°C, si causerà lo scioglimento di una parte del ghiaccio sullo sfondo.
 
-![Image of first deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/sxrKmz.png)
+<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
+<!-- ![Image of first deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/sxrKmz.png) -->
 <br>
 
-* Fin dal primo aumento di temperatura inoltre partirà un timeout di 30 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
+* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
 
-![Image of full deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/kYUDJV.png)
+<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
+<!-- ![Image of full deglaciation](https://imagizer.imageshack.com/v2/320x240q90/924/kYUDJV.png) -->
 
 <br>
 
@@ -85,15 +88,17 @@ Fonte:
 
 * Se all’inizio si diminuirà la temperatura il timeout non partirà ed il ghiaccio sullo sfondo non si scioglierà.
 
-![Image of stopped deglaciation](https://imagizer.imageshack.com/v2/320x240q90/923/PSvojC.png)
+<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/9Ma3dK.png">
+<!-- ![Image of stopped deglaciation](https://imagizer.imageshack.com/v2/320x240q90/923/PSvojC.png) -->
 
 <br>
 
 * La barra centrale del termostato dà un’altra rappresentazione visiva della temperatura, passando dal verde per una temperatura media del globo ottimale al rosso.
 
-![Central bar green](https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png)
-
-![Central bar red](https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png)
+<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png">
+<!-- ![Central bar green](https://imagizer.imageshack.com/v2/320x240q90/924/SvD6O9.png) -->
+<img align="center" src="https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png">
+<!-- ![Central bar red](https://imagizer.imageshack.com/v2/320x240q90/922/TTzI8Z.png) -->
 
 <br>
 
