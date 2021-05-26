@@ -81,7 +81,7 @@ Fonte:
 
 <br>
 
-* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che giunto al termine causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. 
+* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che, giunto al termine, causerà lo scioglimento del ghiaccio sullo sfondo aumentando inoltre il livello dell’acqua. La funzione viene usata anche per ripulire lo schermo da eventuali sfumature lasciate dall'animazione dovute ad un eccessiva velocità nell'aumento di temperatura.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
