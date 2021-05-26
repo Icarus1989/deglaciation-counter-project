@@ -50,19 +50,21 @@
 ### Description
 
 Questo progetto é stato creato per essere più di un semplice counter. 
-Con i buttons + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo.
-Inoltre, vi un'animazione che farà girare una rotella, situata in corrispondenza della lettera "O" della parola "GLOBAL", come se si stesse usando un termostato manuale, ed una barra centrale che passerà dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite l'so esclusivo di JavaScript nel file script.js.<br>
-Per trasmettere la sensazione dell'abbassare o alzare la temperatura globale, si potrà osservarne gli effetti sullo sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js.
+I buttons + e - sono implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo, ma globale.
+Vi é un'animazione che farà girare una rotella, situata in corrispondenza della lettera "O" della parola "GLOBAL", come se si stesse usando un termostato manuale, ed una barra centrale che passerà dal colore verde al rosso in base alla giusta regolazione di temperatura dell'ambiente. Queste implementazioni sono realizzate tramite l'uso esclusivo di JavaScript nel file script.js.<br>
+Lo sfondo, realizzato con JavaScript e la library p5.js, permette di percepire l'innalzamento o l'abbassamento della temperatura globale attraverso lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js.
 
-Fonte temperatura di partenza:<br>
+Fonte dati temperatura di partenza:<br>
 :link: https://earthobservatory.nasa.gov/world-of-change/global-temperatures  :satellite:
+
+:white_check_mark: Estensione WAVE per accessibilità.
 
 <hr>
 <hr>
 
 ## Usage
 
-* Aumentando la temperatura con il button "+" si causerà l’innalzamento della temperatura di 0,1°C e del livello dell’acqua sullo sfondo. Ogni 0.4°C, avverrà lo scioglimento della fila superiore dei cubi ghiaccio.
+* Aumentando la temperatura con il button "+" si causerà l’innalzamento della temperatura di 0.1°C e del livello dell’acqua sullo sfondo. Ogni 0.4°C, avverrà lo scioglimento della fila superiore dei cubi ghiaccio.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/923/kh1Lwf.png">
@@ -70,7 +72,7 @@ Fonte temperatura di partenza:<br>
 
 <br>
 
-* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che, giunto al termine, causerà lo scioglimento totale del ghiaccio sullo sfondo. La funzione viene usata anche per ripulire lo schermo da eventuali sfumature lasciate dall'animazione, dovute ad un eccessiva velocità nell'aumento di temperatura.
+* Fin dal primo aumento di temperatura inoltre partirà un timeout di 23 secondi che, giunto al termine, causerà lo scioglimento totale del ghiaccio sullo sfondo. La funzione viene usata anche per ripulire la window da eventuali sfumature lasciate dall'animazione, dovute ad un eccessiva velocità nell'aumento di temperatura.
 
 <div align="center">
   <img src="https://imagizer.imageshack.com/v2/320x240q90/922/gBIcjO.png">
@@ -86,7 +88,7 @@ Fonte temperatura di partenza:<br>
 
 <br>
 
-* Ogni feature inserita vuole essere una ricercata analogia con il mondo reale, dove non basta mantenere la temperatura del globo a questi livelli per fermare la sglaciazione dei poli e dei ghiacciai. Occorre far diminuire la temperatura del nostro pianeta il prima possibile. Anche un altro minimo aumento della temperatura potrebbe causare danni irreparabili.
+* Ogni feature inserita vuole essere un'analogia con il mondo reale, dove non basta mantenere la temperatura della terra a questi livelli per fermare la sglaciazione dei poli e dei ghiacciai. Occorre far diminuire la temperatura del nostro pianeta il prima possibile. Anche un altro minimo aumento della temperatura potrebbe causare danni irreparabili.
 
 <div align="center">
   <img align="center" src="https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019.png">
@@ -118,6 +120,5 @@ westcoastrapper89@yahoo.it<br>
 [GitHub](http://https://github.com/Icarus1989)<br>
 [Instagram](http://https://www.instagram.com/alex._.1989/)<br>
 [Facebook](https://www.facebook.com/alex.valente.92)<br>
-
 
 Project Link :link: : [ https://github.com/Icarus1989/deglaciation-counter-project]
