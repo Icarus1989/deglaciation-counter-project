@@ -26,7 +26,7 @@
     <li><a href="#quick-start">Quick start</a></li>
     <li><a href="#demo">Demo</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contacts">Contacts</a></li>
   </ol>
 </details>
 
@@ -50,13 +50,13 @@
 
 ### Description
 
-Questo progetto é composto da un file HTML per la struttura della pagina ed un file CSS per lo style dei vari elements che la compongono. Inoltre vi sono tre file di script JavaScript: il princiale , script.js, per collegare e far gestire agli elements le azioni degli utenti, visualizzare il counter e la temperatura e regolare la barra centrale, oltre al posizionamento di alcuni elements. Gli altri due vengono utilizzati per l'animazione sullo sfondo come reazione alle azioni dello user sfruttando alcuni metodi della library p5.js, per rendere più veloce la creazione di forme regolari e creare animazioni più naturali usando i Vectors.
+Questo progetto é composto da un file HTML per la struttura della pagina ed un file CSS per lo style dei vari elements che la compongono. Vi sono tre file di script JavaScript: il princiale , script.js, per collegare e far gestire agli elements le azioni degli utenti, visualizzare il counter e la temperatura e regolare la barra centrale, oltre al posizionamento di alcuni elements. Gli altri due vengono utilizzati per l'animazione sullo sfondo come reazione alle azioni dello user sfruttando alcuni metodi della library p5.js, per rendere più veloce e leggero il disegno di forme regolari e creare animazioni più naturali usando i Vectors.
 
 <hr>
 
 Questo progetto é stato creato per essere più di un semplice counter. 
-Con i button + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.<br>
-Oltre ad aggiornare la value della temperatura nelle due metà dei quadranti del termostato, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web. Inoltre vi é una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente.<br>
+Con i buttons + e - si aumenterà o diminuirà la temperatura, implementati come fossero i due tasti per la regolazione della temperatura di un termostato casalingo. Il counter partirà da 0°C, aumenterà o diminuirà di 0.1°C per ogni click dei button e varierà inoltre la temperatura media globale indicata nella seconda metà del quadrante centrale.<br>
+Oltre ad aggiornare la value della temperatura nelle due metà dei quadranti del termostato, vi é implementata un'animazione in JavaScript che farà girare la pallina situata in corrispondenza della lettera "O" della parola "GLOBAL" del titolo della pagina web, come fosse un termostato manuale. Inoltre vi é una barra centrale che passa dal colore verde a rosso in base alla giusta regolazione di temperatura dell'ambiente.<br>
 Questo per trasmettere la sensazione dell'abbassare o alzare la temperatura girando realmente il termostato del mondo, vedendone alcuni effetti.<br>
 Tali cambiamenti si possono osservare nello sfondo, realizzato con JavaScript e la library p5.js, dove avverrà lo scioglimento dei cubi di ghiaccio e l'aumento del livello del'acqua. Per vederne il codice nel dettaglio si osservino i file sketch.js e icecube.js, dove, ricevendo dei segnali dal file js principale script.js, si attiveranno le animazioni e un timeout per il totale scioglimento delle tre file di cubi di ghiaccio, oltre che un'innalzamento eccessivo del livello dell'acqua.
 
@@ -113,7 +113,7 @@ Fonte:
 
 <br>
 
-* Ogni feature é una ricercata analogia con il mondo reale, dove non basterà maniere la temperatura del globo a questi livelli, ma per fermare la sglaciazione dei poli e dei ghiacciai, ed evitare che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici.
+* Ogni feature é una ricercata analogia con il mondo reale, dove non basta mantenere la temperatura del globo a questi livelli per fermare la sglaciazione dei poli e dei ghiacciai, evitando così che il livello degli oceani continui ad aumentare fino a raggiungere livelli catastrofici. Occorre far diminuire la temperatura del nostro pianeta il prima possibile. Anche un altro minimo aumento della temperatura potrebbe causare danni irreparabili.
 
 <div align="center">
   <img align="center" src="https://earthobservatory.nasa.gov/ContentWOC/images/globaltemp/global_gis_2015-2019.png">
@@ -146,7 +146,7 @@ Distributed under the MIT License.
 <hr>
 <hr>
 
-## Contact
+## Contacts
 
 Alex<br>
 westcoastrapper89@yahoo.it<br>
